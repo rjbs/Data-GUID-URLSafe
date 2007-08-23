@@ -1,7 +1,7 @@
 
 use strict;
 
-use Test::More tests => 7;
+use Test::More tests => 8;
 
 use_ok('Data::GUID::URLSafe');
 
@@ -13,6 +13,7 @@ can_ok($guid, qw(as_base64_urlsafe));
 my $string = $guid->as_base64_urlsafe;
 
 unlike($string, qr{[/=+]}, "no bad characters in encoded guid");
+is(length $string, 22, "all base64_urlsafe guids are 22 chars");
 
 can_ok('Data::GUID', qw(from_base64_urlsafe));
 
