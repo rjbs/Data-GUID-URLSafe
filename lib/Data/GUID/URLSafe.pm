@@ -8,13 +8,13 @@ Data::GUID::URLSafe - url-safe base64-encoded GUIDs
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =cut
 
-$Data::GUID::URLSafe::VERSION = '0.001';
+$Data::GUID::URLSafe::VERSION = '0.002';
 
-=head SYNOPSIS
+=head1 SYNOPSIS
 
   use Data::GUID::URLSafe;
 
