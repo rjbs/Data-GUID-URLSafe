@@ -1,5 +1,8 @@
 Changelog for Data-GUID-URLSafe
 
+0.003     2008-03-05
+          fix non-conformant META.yml
+
 0.002     2007-08-24
           fix pod error
 
