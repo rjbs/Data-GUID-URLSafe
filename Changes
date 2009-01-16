@@ -1,5 +1,8 @@
 Changelog for Data-GUID-URLSafe
 
+0.004     2009-01-16
+          add repo info to metadata
+
 0.003     2008-03-05
           fix non-conformant META.yml
 

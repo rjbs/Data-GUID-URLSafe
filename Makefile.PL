@@ -13,4 +13,7 @@ requires      ('Sub::Exporter' => 0.00);
 
 author_tests('xt');
 
+repository('http://github.com/rjbs/data-guid-urlsafe');
+auto_manifest;
+
 WriteAll();
