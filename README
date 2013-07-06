@@ -1,3 +1,0 @@
-Data::GUID::URLSafe 0.004
-
-This module adds urlsafe base64 methods to Data::GUID;
