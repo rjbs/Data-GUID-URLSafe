@@ -2,6 +2,9 @@ Changelog for Data-GUID-URLSafe
 
 {{$NEXT}}
 
+0.006     2013-09-28 20:38:51 America/New_York
+          update bugtracker and repo *correct* (thanks, David Steinbrunner!)
+
 0.005     2013-07-05 21:33:10 America/New_York
           update bugtracker, repackage
 
